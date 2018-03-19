@@ -11,10 +11,6 @@ var mainView = myApp.addView('.view-main', {
 
 });
  
-$$('.open-about').on('click', function () {
-  console.log('About Popup opened');
-  myApp.popup('.popup-about');
-});
 
 // Callbacks to run specific code for specific pages, for example for About page:
 myApp.onPageInit('about', function (page) {
